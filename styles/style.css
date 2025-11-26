@@ -228,6 +228,16 @@ h3 {
     font-size: 1.3rem;
 }
 
+.meer-nieuws {
+    margin: 1rem;
+    color: var(--paarsBlauw);
+    text-align: center;
+
+    @media (min-width: 834px) {
+        display: none;
+    }
+}
+
 .news-container {
     display: grid;
     gap: 1em;
