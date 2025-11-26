@@ -16,7 +16,7 @@ header {
     top: 0;
     z-index: 1;
     position: sticky;
-    box-shadow: 0px 4px 5px var(--primaryAccent);
+    box-shadow: 0px 4px 15px var(--primaryAccent);
 }
 
 /* MARK: Logo van de buurtcampus */
@@ -268,7 +268,7 @@ h3 {
 }
 
 .flexbox-content {
-    display: flex;
+    /* display: flex; */
     flex-direction: column;
     background-color: var(--luchtBlauw);
     border-radius: 25px;
