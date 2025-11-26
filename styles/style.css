@@ -232,6 +232,8 @@ nav {
 /* MARK: Filterknop en archief knop styling*/
 .filter-knop,
 .archief-knop {
+    display: flex;
+    align-items: center;
     background-color: var(--paarsBlauw);
     color: var(--primaryAccent);
     border: none;
@@ -245,11 +247,16 @@ nav {
 /* MARK: Hover effect op de filter en archief knoppen */
 .filter-knop:hover,
 .archief-knop:hover {
-    background-color: var(--primaryAccent);
-    color: var(--blauw);
-    border: 2px solid var(--paarsBlauw);
+    background-color: var(--torenOranje);
+    color: var(--primaryAccent);
+    border: none;
 }
 
+.filter-icon, .archive-icon {
+    width: 21px;
+    height: 20px;
+    margin-right: 0.5rem;
+}
 
 h1 {
     text-align: center;
