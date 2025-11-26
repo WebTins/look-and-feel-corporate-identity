@@ -247,7 +247,7 @@ nav {
 /* MARK: Hover effect op de filter en archief knoppen */
 .filter-knop:hover,
 .archief-knop:hover {
-    background-color: var(--torenOranje);
+    background-color: var(--modder);
     color: var(--primaryAccent);
     border: none;
 }
@@ -378,6 +378,54 @@ article:nth-of-type(1) {
 
 /* MARK: Hover styling van lees meer knop */
 .read-button:hover {
-    background-color: var(--primaryAccent);
-    color: var(--torenOranje);
+    background-color: var(--modder);
+    color: var(--primaryAccent);
+}
+
+footer {
+    background-color: var(--luchtBlauw);
+    text-align: center;
+}
+
+.input-email {
+    appearance: none;
+    font-size: 1em;
+    border-radius: 100px;
+    border: none;
+    height: 1.5em;
+    transition: 0.5s;
+    padding-left: 2em;
+    background-image: url("/assets/mail-knop.png");
+    background-size: 1.4em auto;
+    background-repeat: no-repeat;
+    background-position: .550em center;
+
+    &::placeholder {
+        font-style: italic;
+        padding-left: 3px;
+    }
+
+    &:focus,
+    &:active {
+        background-image: url("/assets/mail-knop2.png");
+        outline: none;
+        height: 2em;
+    }
+}
+
+.submit {
+    background-color: var(--torenOranje);
+    color: #ffffff;
+    border: 0 solid #ffffff;
+    border-radius: 100px;
+    padding: 0.7em 1em;
+    font-weight: 400;
+    cursor: pointer;
+    align-self: flex-start;
+    text-decoration: none;
+
+    &:hover {
+        background-color: var(--modder);
+        transition: background-color 0.5s;
+    }
 }
