@@ -219,6 +219,38 @@ nav {
     color: var(--paarsBlauw);
 }
 
+/* MARK: Filter, H1 en Archief  */
+.boven-bar {
+    position: relative;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    margin: 0;
+    top: -1rem;
+}
+
+/* MARK: Filterknop en archief knop styling*/
+.filter-knop,
+.archief-knop {
+    background-color: var(--paarsBlauw);
+    color: var(--primaryAccent);
+    border: none;
+    border-radius: 20px;
+    padding: 0.5rem 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+/* MARK: Hover effect op de filter en archief knoppen */
+.filter-knop:hover,
+.archief-knop:hover {
+    background-color: var(--primaryAccent);
+    color: var(--blauw);
+    border: 2px solid var(--paarsBlauw);
+}
+
+
 h1 {
     text-align: center;
     color: var(--paarsBlauw);
