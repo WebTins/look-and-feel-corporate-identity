@@ -232,7 +232,12 @@ h2 {
 }
 
 h3 {
+    color: var(--paarsBlauw);
     font-size: 1.3rem;
+}
+
+.heading-lately {
+    color: var(--primaryAccent);
 }
 
 .meer-nieuws {
@@ -283,7 +288,13 @@ h3 {
     width: 100%;
 }
 
+.lately-datum {
+    color: var(--primaryAccent);
+    font-weight: var(--font-weight-semibold);
+}
+
 .datum {
+    color: var(--paarsBlauw);
     font-weight: var(--font-weight-semibold);
 }
 
